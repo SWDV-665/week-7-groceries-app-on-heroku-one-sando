@@ -1,1 +1,28 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/T-t1BvOi)
+# Week 7 - Heroku
+
+- As discussed in the video, the current status of the app should deploy to Heroku.
+- Capture the screenshots of each tab or screencast, walking through the flow of each tab.
+
+
+
+
+## Directions
+```bash
+# install on Mac
+brew tap heroku/brew && brew install heroku
+# login
+heroku login
+
+mkdir heroku-groceries
+cd heroku-groceries
+git init
+heroku git:remote -a groceries-application-demo
+git add .
+git commit -m "add server"
+git push heroku master
+```
+
+## Example
+![screenshot](screenshots/heroku.png)
+
+![screenshot](screenshots/screenshot2.png)
